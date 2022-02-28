@@ -93,9 +93,9 @@ jobs:
       run: |
         artifactName=$(ls *.jar | head -1)
         mvn deploy -DmuleDeploy \
-         -Dmule.artifact=helloworld \
-         -Danypoint.username=demo8 \
-         -Danypoint.password=Avet258741$ \
+         -Dmule.artifact="helloworld" \
+         -Danypoint.username="demo8" \
+         -Danypoint.password="Avet258741$" \
          -Denv=Sandbox \
          
          -DskipTests
