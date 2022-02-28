@@ -43,7 +43,7 @@
       <username>demo8</username>
       <password>Avet258741$</password>
       <applicationName>helloworld</applicationName>
-      <environment>SANDBOX</environment>
+      <environment>Sandbox</environment>
       <region>US-EAST-2</region>
       <workers>1</workers>
       <workerType>MICRO</workerType>
